@@ -1,0 +1,10 @@
+<!-- library tag provides the relative path to a library that contains plugins to export -->
+<library path="polygon_plugins">
+  <!-- class tag declares a plugin to export from the library -->
+  <class type="polygon_plugins::Square" base_class_type="polygon_base::RegularPolygon">
+    <description>This is a square plugin.</description>
+  </class>
+  <class type="polygon_plugins::Triangle" base_class_type="polygon_base::RegularPolygon">
+    <description>This is a triangle plugin.</description>
+  </class>
+</library>
